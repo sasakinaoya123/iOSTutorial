@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Qm7-0y-ceS">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Latest Article View Controller-->
+        <scene sceneID="bhb-U8-DlQ">
+            <objects>
+                <viewController id="Qm7-0y-ceS" customClass="LatestArticleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pDZ-gf-TA8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yg1-pz-plJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jYT-cz-Bbl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LABELLABELLABELLABELLABELLABEL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EiM-NR-cOt">
+                                <rect key="frame" x="16" y="579" width="314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="EiM-NR-cOt" firstAttribute="leading" secondItem="jYT-cz-Bbl" secondAttribute="leadingMargin" id="33l-yd-mfR"/>
+                            <constraint firstItem="Yg1-pz-plJ" firstAttribute="top" secondItem="EiM-NR-cOt" secondAttribute="bottom" id="NCy-bu-uMd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zq9-d8-EEm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34" y="187"/>
+        </scene>
+    </scenes>
+</document>
